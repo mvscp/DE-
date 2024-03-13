@@ -1,6 +1,6 @@
 from task1.shape import Circle, Triangle, calculate_area
 from pyspark.sql import SparkSession
-from task2.data import get_product_category_pairs
+from task2.utils import get_product_category_pairs
 
 # Пример использования библиотеки
 if __name__ == "__main__":
